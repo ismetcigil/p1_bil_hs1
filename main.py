@@ -335,3 +335,37 @@
 #             print("Kaybettin!")
 #         else:
 #             print("Berabere!")
+# meyveler = ["Elma", "Armut","Şeftali"]
+# for meyve in meyveler:
+#     print(meyve)
+# for sayi in range(0,100):
+#     if (sayi%3) == 0 and  (sayi%5)==0:
+#         print(sayi)
+# girilensayi = int(input("bir sayı giriniz"))
+
+# carpim = 1
+
+# for sayi in range(1, girilensayi+1):
+#     carpim *= sayi
+
+# print(f"girdiğin sayının faktöriyeli : {carpim}")
+# for sayi in range(0,10):
+#     print(f"8 x {sayi} = {8 * sayi }")
+# for sayi in range(0,100):
+#     if (sayi%2) == 0 and  (sayi%3)==0:
+#         print(sayi)
+# boylar = input("öğrenci boylarını cm cinsinden aralarında bir boşluk olacak şekilde giriniz")
+# boydizisi = boylar.split(" ")
+# toplam = 0
+# for boy in boydizisi:
+#     toplam += int(boy)
+
+# print(f"girilen boyların ortalaması : {toplam / len(boydizisi)}")
+puanlar = input("öğrenci puanlarını arada boşluk olacak şekilde giriniz")
+enyüksekpuan = int(puanlar.split(" ")[0])
+for puan in puanlar.split(" "):
+    if enyüksekpuan < int(puan):
+        enyüksekpuan = int(puan)
+
+print(f"En yüksek puan : {enyüksekpuan}")
+print(f"En küçük puan : {min(puanlar.split(' '))}")
