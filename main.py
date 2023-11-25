@@ -361,11 +361,15 @@
 #     toplam += int(boy)
 
 # print(f"girilen boyların ortalaması : {toplam / len(boydizisi)}")
-puanlar = input("öğrenci puanlarını arada boşluk olacak şekilde giriniz")
-enyüksekpuan = int(puanlar.split(" ")[0])
-for puan in puanlar.split(" "):
-    if enyüksekpuan < int(puan):
-        enyüksekpuan = int(puan)
+# puanlar = input("öğrenci puanlarını arada boşluk olacak şekilde giriniz")
+# enyüksekpuan = int(puanlar.split(" ")[0])
+# for puan in puanlar.split(" "):
+#     if enyüksekpuan < int(puan):
+#         enyüksekpuan = int(puan)
 
-print(f"En yüksek puan : {enyüksekpuan}")
-print(f"En küçük puan : {min(puanlar.split(' '))}")
+# print(f"En yüksek puan : {enyüksekpuan}")
+# print(f"En küçük puan : {min(puanlar.split(' '))}")
+# def fonksiyonum() :
+#     print("Merhaba")
+#     print("Dünya")
+# fonksiyonum()
